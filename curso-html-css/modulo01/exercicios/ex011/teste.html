@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes com mídias em HTML5</title>
+</head>
+<body>
+    <h1>Home:</h1>
+    <p>Aqui você pode voltar a home: <a href="index.html" type="prev">clique aqui.</a></p>
+
+    <h1>Testes</h1>
+    <p>Aqui você verá o Kaneda em 3 tamanhos diferentes caso alterne o tamnho da sua tela:</p>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/kaneda-g.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="imagens/kaneda-m.png" type="image/png">
+        <img src="imagens/kaneda-p.png" alt="kaneda flex">
+
+        <!--Fazendo o inverso do ex011.-->
+    </picture>
+</body>
+</html>

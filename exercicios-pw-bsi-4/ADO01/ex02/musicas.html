@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Música no HTML</title>
+</head>
+<body>
+    <h1>Avaliando suas músicas</h1>
+    <p>Avalie essa música e saiba qual é o top 10 dessa semana!</p>
+
+    <h2>Asian Kung Fu Generation</h2>
+    <p>Solanim - Asian Kung Fu Generation</p>
+    <img src="https://jbchost.com.br/madeinjapan/wp-content/uploads/2017/04/AKFG_Main-1024x683.jpg" alt="Banda Asian Kung Fu Generation" width="500" height="350">
+    <br>
+    <audio src="audio.mp3" autoplay controls volume="60">
+        Seu browser nao suporta esse tipo de arquivo.
+    </audio>
+    <p>Solanim foi lançada em 2010 pela banda de Pop e Rock japonês, foi lançada junto ao albúm Magic Disk.</p>
+    <h2>Lista com o top 10 músicas da semana no Brasil:</h2>
+    <ol>
+        <li>
+            <p>Quer voar - Matuê</p>
+        </li>
+        <li>
+            <p>MORENA - Luan Santana</p>
+        </li>
+        <li>
+            <p>Ficha Limpa - Gusttavo Lima</p>
+        </li>
+        <li>
+            <p>Faxina - Guilherme & Benuto</p>
+        </li>
+        <li>
+            <p>Porre - Dilsinho</p>
+        </li>
+        <li>
+            <p>Zero saudade - Baroes da Pisadinha</p>
+        </li>
+        <li>
+            <p>ASSIM NASCE UM BÊBADO - Luan Santana</p>
+        </li>
+        <li>
+            <p>Baby Me Atende - Matheus Fernandes</p>
+        </li>
+        <li>
+            <p>Beijo Vampiro - Baroes Da Pisadinha</p>
+        </li>
+        <li>
+            <p>Triste com T - Pabllo Vittar</p>
+        </li>
+    </ol>
+    <h2>Queremos saber um pouco mais sobre você</h2>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Avaliaçoes dos ouvintes</b></legend>
+                <br>
+                <div>
+                    <label for="nome_completo">Nome completo:</label>
+                    <input type="text" name="nome_completo" id="nome_completo" required>
+                </div>
+                <br>
+                <div>                 
+                    <label for="data_nascimento">Data de nascimento:</label>
+                    <input type="date" name="data_nascimento" id="data_nascimento" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="nome@exemplo.com" required>
+                </div>
+                <br>
+                <div>
+                    <label>Gênero (opcional):</label>
+                    <br>
+                    <div>
+                    <label>
+                        <input type="radio" name="gen" id="masculino">Masculino
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="gen" id="feminino">Feminino
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="gen" id="outro">Outro(s)
+                    </label>
+                </div>
+                <!--
+                    Por algum motivo nao estou conseguindo deixar selecionar só um por vez, perdao professor!!!
+                -->
+                <br>
+                <div>
+                    <label>Avalie a música que acabou de escutar:</label>
+                    <br>
+                    <div>
+                    <label>
+                        <input type="radio" name="nota" id="excelente">Excelente
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="nota" id="boa">Boa
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="nota" id="regular">Regular
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="nota" id="ruim">Ruim
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="nota" id="pessima">Pessima
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label>Estilo musical favorito:</label>
+                    <br>
+                    <div>
+                    <label>
+                        <input type="radio" name="estilo" id="rock">Rock
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="estilo" id="samba">Samba
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="estilo" id="pop">Pop
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="estilo" id="pagode">Pagode
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="estilo" id="sertanejo">Sertanejo
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="estilo" id="outro">Outro
+                    </label>
+                    <br><br>
+                <div>
+                    <label for="comentario">Comentário:</label>
+                    <br>
+                    <textarea id="comentario" placeholder="Escreva seu comentário aqui"></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+                </div>
+            </fieldset>
+</body>
+</html>

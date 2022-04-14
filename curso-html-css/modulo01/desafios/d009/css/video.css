@@ -1,0 +1,21 @@
+#curso {
+    text-align: center;
+}
+
+#nav {
+    text-align: center;
+    padding-top: 10px;
+    position: bottom;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.botao {
+    padding-top: 20px;
+}
+
+.meu-link {
+    color: white;
+    text-decoration: none;
+    
+}

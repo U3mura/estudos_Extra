@@ -1,0 +1,12 @@
+body {
+   background-color: rgb(27, 27, 27); 
+}
+
+h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#video-menu { 
+    text-align: center;
+}

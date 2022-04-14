@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de pedidos</title>
+</head>
+<body>
+    <form action="">
+            <legend><h1>Restaurante Uemura</h1></legend>
+            <br>
+            <div>
+                <label for="nome_completo">Nome completo:</label>
+                <input type="text" name="nome_completo" id="nome_completo" required>
+            </div>
+            <br>
+            <label>Faça seu pedido:</label>
+            <br>
+            <input list="browsers" />
+                <datalist id="browsers">
+                    <option value="Udon">
+                    <option value="Sushi">
+                    <option value="Temaki">
+                    <option value="Ramen">
+                    <option value="Chicken katsuo">
+                </datalist>
+            <br><br>
+            <div>
+                <label>Forma de pagamento:</label>
+                <br>
+                <label>
+                    <input type="radio" name="pag" id="credito">Crédito
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="pag" id="debito">Débito
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="pag" id="dinheiro">Dinheiro
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="pag" id="vr">Vale-Refeiçao
+                </label>
+            </div>
+            <br>
+            <div>                 
+                <label for="data_pedido">Data do pedido:</label>
+                <input type="date" name="data_pedido" id="data_pedido" required>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+    </form>
+</body>
+</html>

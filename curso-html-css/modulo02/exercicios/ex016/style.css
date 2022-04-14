@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*height: 100%;*/
+}
+
+body {
+    background-image: linear-gradient(to right, #0554F2, #056CF2);
+    /*background-image: url(https://wallpaperaccess.com/full/279097.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;*/
+}
+
+#logo {
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif; color: white;
+    font-weight: bold; 
+    font-size: xxx-large;
+    text-shadow: 2px 2px 3px #13264098;
+}
+
+main {
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 16px #132640;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+
+img {
+    width: 560px;
+    height: 315px;
+}
+
+h2 {
+    color: #1D3973;;
+    padding-right: 20px;
+}
+
+p {
+    text-align: justify;
+    width: auto;
+    padding-right: 10px;
+}
+
+a {
+    color: #0066ff;
+    font-size: large;
+}
+
+ul {
+    padding-right: 20px;
+}

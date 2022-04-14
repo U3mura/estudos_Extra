@@ -1,0 +1,23 @@
+img {
+    width: 100px;
+}
+
+body {
+    font-family: cursive;
+}
+
+h1 {
+    color: rgb(12, 117, 73);
+    text-shadow: 2px 0px 0px black;
+}
+
+h2 {
+    text-align: right;
+    color: red;
+    text-shadow: 2px 0px 0px black;
+}
+
+p {
+    width: auto;
+    text-align: justify;
+}
